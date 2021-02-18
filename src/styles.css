@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #f1f1f1;
+}
+.cocktail-card {
+  background: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 16vw 80vw);
+  grid-column-gap: 16px;
+
+  padding: 8px;
+}
+
+.cocktail-card:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 24px;
+}
